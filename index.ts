@@ -122,12 +122,13 @@ export abstract class Demo {
     }
 
     let settings:PageSettings = {
-        fontFamily: "Segoe UI",
-        fontStyle:"Regular",
-        fontSize:12,
+        fontFamily: "Comic Sans MS",
+        fontStyle:"Italic",
+        fontSize:9,
         paperSize:"A4",
         bubbleColor:"Black",
-        pageMarginLeft:210,
+        pageMarginLeft:190,
+        pageMarginRight:190,
         orientation:"Vertical",
         bubbleSize:"Normal",
         outputFormat:"Png"

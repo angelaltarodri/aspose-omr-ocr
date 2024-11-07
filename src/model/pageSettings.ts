@@ -28,6 +28,7 @@ export interface PageSettings {
     paperSize?: PaperSize;
     bubbleColor?: Color;
     pageMarginLeft?: number;
+    pageMarginRight?:number;
     orientation?: Orientation;
     bubbleSize?: BubbleSize;
     outputFormat?: FileExtension;
