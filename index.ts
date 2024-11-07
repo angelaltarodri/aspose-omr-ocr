@@ -144,6 +144,10 @@ export abstract class Demo {
     let generationResult : OMRResponse = null;
     while (true) {
         generationResult = await this.generateApi.getGenerateTemplate(id);
+    
+        if (generationResult.responseStatusCode == "Error"){
+          throw new Error(generationResult.error.messages[0]);
+        }
 
         if (generationResult.responseStatusCode == "Ok") {
           break;
@@ -195,6 +199,10 @@ export abstract class Demo {
     while (true) {
         recognitionResult = await this.recognizeApi.getRecognizeTemplate(id);
     
+        if (recognitionResult.responseStatusCode == "Error"){
+          throw new Error(recognitionResult.error.messages[0]);
+        }
+
         if (recognitionResult.responseStatusCode == "Ok") {
           break;
         }

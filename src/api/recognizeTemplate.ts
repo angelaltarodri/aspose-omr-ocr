@@ -15,7 +15,7 @@
  */
 
 import { OMRResponse } from '../model/OMRResponse';
-import { OmrRecognizeTask } from '../model/OmrRecognizeTask';
+import { OmrRecognizeTask } from '../model/OMRRecognizeTask';
 import {ApiClient} from '../ApiClient';
 
 export class RecognizeTemplate {

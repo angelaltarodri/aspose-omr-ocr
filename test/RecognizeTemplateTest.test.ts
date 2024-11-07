@@ -20,7 +20,7 @@ import { expect } from 'chai';
 import {Common} from "./Common";
 import {ApiClient} from "../src/ApiClient";
 import {RecognizeTemplate} from "../src/api/recognizeTemplate";
-import {OmrRecognizeTask} from "../src/model/OmrRecognizeTask";
+import {OmrRecognizeTask} from "../src/model/OMRRecognizeTask";
 import {OMRResponse} from "../src/model/OMRResponse";
 import fs from "fs";
 import path from "path";
