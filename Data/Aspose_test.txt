@@ -1,0 +1,46 @@
+?text=.
+?text=DNI:
+?text=.
+?text=A continuación, encontrarás una serie de afirmaciones sobre cómo te has sentido 
+?text=o comportado en las últimas semanas. Lee cada afirmación y selecciona si estas 
+?text=conductas o sentimientos son algo que experimentas nunca, a veces, o frecuentemente. 
+?text=Responde de la manera más honesta posible, no hay respuestas correctas o incorrectas.
+
+#Te sientes triste
+	() Nunca () A veces () Frecuentemente
+#Te sientes pesimista/piensas que las cosas son difíciles y te van a salir mal
+	() Nunca () A veces () Frecuentemente
+#Te sientes mal contigo mismo(a)
+	() Nunca () A veces () Frecuentemente
+#Te preocupas mucho
+	() Nunca () A veces () Frecuentemente
+#Parece que te diviertas menos que antes/ Te aburres fácilmente
+	() Nunca () A veces () Frecuentemente
+#Te cuesta estar tranquilo
+	() Nunca () A veces () Frecuentemente
+#Sueñas despierto(a)/ estas en tu propio mundo
+	() Nunca () A veces () Frecuentemente
+#Te distraes fácilmente
+	() Nunca () A veces () Frecuentemente
+#Te cuesta concentrarte
+	() Nunca () A veces () Frecuentemente
+#Eres muy inquieto(a), tienes demasiada energía
+	() Nunca () A veces () Frecuentemente
+#Pelea con otros chicos o adolescentes(s)                                     
+	() Nunca () A veces () Frecuentemente
+#No sigues las órdenes/reglas
+	() Nunca () A veces () Frecuentemente
+#No comprendes los sentimientos de los demás
+	() Nunca () A veces () Frecuentemente
+#Molestas o te rurlas de los demás
+	() Nunca () A veces () Frecuentemente
+#Culpas a los demás de tus problemas
+	() Nunca () A veces () Frecuentemente
+#Te niegas a compartir
+	() Nunca () A veces () Frecuentemente
+#Coges cosas ajenas
+	() Nunca () A veces () Frecuentemente
+
+
+#¿Consideras que tienes algún problema emocional o del comportamiento por el cual necesitas ayuda? 
+	(Yes) SI (No) NO

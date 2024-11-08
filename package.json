@@ -7,18 +7,44 @@
     "start": "npx ts-node index.ts",
     "test": "npx mocha --timeout 30000 'test/**/*.test.ts'"
   },
-  "keywords": [],
+  "keywords": [
+    "Aspose",
+    "OCR",
+    "Cloud",
+    "image2text",
+    "text recognition",
+    "image to text",
+    "recognize text",
+    "detect text",
+    "extract text",
+    "scan image"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.6"
+    "typescript": "^5.6",
+    "expect.js": "~0.3.1",
+    "mocha": "^8.1.0",
+    "sinon": "1.17.3"
   },
   "dependencies": {
+    "aspose_ocr_cloud_5_0_api": "file:../nodejsv50",
+    "axios": "^1.6.3",
     "@testdeck/mocha": "^0.2.0",
-    "axios": "^0.27.2",
     "chai": "^4.3.6",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
-    "ts-node": "^10.8.1"
+    "ts-node": "^10.8.1",
+    "@asposecloud/aspose-ocr-cloud": "^23.12.0",
+    "enum": "^3.0.4",
+    "jsdoc": "^3.6.6",
+    "nodeunit": "^0.11.3",
+    "superagent": "5.1.0",
+    "sync-request": "^6.0.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test",
+    "source": "src"
   }
 }

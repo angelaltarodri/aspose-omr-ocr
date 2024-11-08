@@ -1,0 +1,8 @@
+{
+	"client_secret"  : "89fcd0b0e0356b15cae2f665620eeaeb",
+	"client_id"   : "25a8dba1-100b-438d-924c-844b7bdb8548",
+	"base_path" : "https://api.aspose.cloud/v5.0/omr/",
+	"auth_url":"https://api.aspose.cloud/connect/token",
+	"data_folder" : "Data",
+	"result_folder" : "Temp"
+}

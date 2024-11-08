@@ -16,7 +16,7 @@
  
 import { OMRResponse } from '../model/OMRResponse';
 import { OmrGenerateTask } from '../model/OMRGenerateTask';
-import {ApiClient} from '../ApiClient';
+import {ApiClient} from '../ApiClient2';
 
 export class GenerateTemplate {
     apiClient : ApiClient;

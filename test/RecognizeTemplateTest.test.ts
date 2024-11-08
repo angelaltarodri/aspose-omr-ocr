@@ -18,7 +18,7 @@ import { suite, test } from '@testdeck/mocha';
 import * as _chai from 'chai';
 import { expect } from 'chai';
 import {Common} from "./Common";
-import {ApiClient} from "../src/ApiClient";
+import {ApiClient} from "../src/ApiClient2";
 import {RecognizeTemplate} from "../src/api/recognizeTemplate";
 import {OmrRecognizeTask} from "../src/model/OMRRecognizeTask";
 import {OMRResponse} from "../src/model/OMRResponse";
